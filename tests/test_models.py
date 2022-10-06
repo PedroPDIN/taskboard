@@ -56,3 +56,5 @@ def test_task_model_invalid_status(board, task):
 
     with pytest.raises(ValidationError):
         task.full_clean()
+
+
